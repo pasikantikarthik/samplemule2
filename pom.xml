@@ -38,14 +38,14 @@
 				  <configuration>
     <cloudHubDeployment>
       <uri>https://anypoint.mulesoft.com</uri>
-      <muleVersion>${app.runtime}</muleVersion>
-      <username>${username}</username>
-      <password>${password}</password>
-      <applicationName>${applicationName}</applicationName>
-      <environment>${environment}</environment>
-      <region>${region}</region>
-      <workers>${workers}</workers>
-      <workerType>${workerType}</workerType>
+      <muleVersion>4.4.0</muleVersion>
+      <username>agastya2021</username>
+      <password>Sudha@1991</password>
+      <applicationName>sampledemomuleappabc</applicationName>
+      <environment>sandbox</environment>
+      <region>US East</region>
+      <workers>1</workers>
+      <workerType>0.1 vCores</workerType>
       <properties>
         <key>value</key>
       </properties>
