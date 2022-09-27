@@ -43,9 +43,10 @@
       <password>Sudha@1991</password>
       <applicationName>sampledemomuleappabc</applicationName>
       <environment>sandbox</environment>
-      <region>US East</region>
+      <region>us-east-1</region>
       <workers>1</workers>
       <workerType>0.1 vCores</workerType>
+      <objectStoreV2>true</objectStoreV2>
       <properties>
         <key>value</key>
       </properties>
