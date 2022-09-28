@@ -43,7 +43,7 @@
       <password>Sudha@1991</password>
       <applicationName>sampledemomuleappabc</applicationName>
       <environment>Sandbox</environment>
-      <region>us-east</region>
+      <region>us-east-1</region>
       <workers>1</workers>
       <workerType>MICRO</workerType>
       <objectStoreV2>true</objectStoreV2>
