@@ -8,6 +8,8 @@ stages:
 - stage: build
   jobs: 
   - job: buildpackage
+    pool:
+       vmImage: ubuntu-latest
     steps:
     - task: DownloadSecureFile@1
       displayName: 'Download secure file'
@@ -34,6 +36,8 @@ stages:
 - stage: Deploy
 jobs:
 - job: startdeployment
+  pool:
+    vmImage: ubuntu-latest
   steps:
 - task: DownloadSecureFile@1
   displayName: 'Download secure file'
